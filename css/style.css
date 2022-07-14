@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.blender {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 700px;
+    height: 500px;
+    background-image: url("../img/blenderOff.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.blender.active {
+    background-image: url("../img/blenderOn.gif");
+}
+
+.blender-button {
+    margin: 350px auto 0px;
+    width: 30px;
+    height: 55px;
+    cursor: pointer;
+}
+
